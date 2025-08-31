@@ -73,40 +73,40 @@ export default function Home() {
           handleProjectsScroll={handleProjectsScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10">
-          <div className="mt-5">
+        <div className="laptop:mt-20 mt-10 bg-white dark:bg-black">
+          <div className="mt-5 bg-white dark:bg-black">
             <h1
               ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5 bg-white dark:bg-black"
             >
               {data.headerTaglineOne}
             </h1>
             <h1
               ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 bg-white dark:bg-black"
             >
               {data.headerTaglineTwo}
             </h1>
             <h1
               ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 bg-white dark:bg-black"
             >
-              {data.headerTaglineThree}
+              {data.headerTaglineTwo}
             </h1>
             <h1
               ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 bg-white dark:bg-black"
             >
               {data.headerTaglineFour}
             </h1>
           </div>
 
-          <Socials className="mt-2 laptop:mt-5" />
+          <Socials className="mt-2 laptop:mt-5 bg-white dark:bg-black" />
         </div>
         
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" data-section="experience" ref={experienceRef}>
-          <h1 className="text-2xl text-bold">Experience.</h1>
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 bg-white dark:bg-black" data-section="experience" ref={experienceRef}>
+          <h1 className="text-2xl text-bold bg-white dark:bg-black">Experience.</h1>
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 laptop:grid-cols-2 gap-6 bg-white dark:bg-black">
             {data.experiences.map((experience, index) => (
               <ExperienceCard
                 key={index}
@@ -117,7 +117,7 @@ export default function Home() {
               />
             ))}
           </div>
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-center bg-white dark:bg-black">
             <p className="text-lg opacity-70">
               View my{" "}
               <a
@@ -133,10 +133,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={projectsRef}>
-          <h1 className="text-2xl text-bold">Projects.</h1>
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 bg-white dark:bg-black" ref={projectsRef}>
+          <h1 className="text-2xl text-bold bg-white dark:bg-black">Projects.</h1>
 
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-4">
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-4 bg-white dark:bg-black">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
@@ -149,7 +149,7 @@ export default function Home() {
               />
             ))}
           </div>
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-center bg-white dark:bg-black">
             <p className="text-lg opacity-70">
               View my{" "}
               <a
@@ -173,9 +173,9 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0 bg-white dark:bg-black" ref={aboutRef}>
+          <h1 className="tablet:m-10 text-2xl text-bold bg-white dark:bg-black">About.</h1>
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5 bg-white dark:bg-black">
             {data.aboutpara}
           </p>
         </div>
