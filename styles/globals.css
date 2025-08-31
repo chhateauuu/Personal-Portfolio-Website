@@ -24,6 +24,33 @@ body {
   }
 }
 
+/* Force dark mode backgrounds for header and footer areas */
+.dark .container,
+.dark .container > *,
+.dark header,
+.dark footer,
+.dark .header,
+.dark .footer {
+  background-color: #000000 !important;
+}
+
+/* Ensure all sections have proper dark mode backgrounds */
+.dark section,
+.dark .section,
+.dark [data-section] {
+  background-color: #000000 !important;
+}
+
+/* Force text colors in dark mode */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p,
+.dark span,
+.dark div {
+  color: #ffffff !important;
+}
+
 .gradient-circle {
   position: absolute;
   pointer-events: none;
