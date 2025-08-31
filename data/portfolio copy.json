@@ -27,46 +27,64 @@
   ],
   "projects": [
     {
-      "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "id": 1,
+      "title": "WorkflowX - AI-Powered Business Assistant",
+      "description": "Building an AI assistant to automate business tasks via Google Calendar, Slack and Customer Relationship Management. Utilizing PostgreSQL, FastAPI, NLP to manage business data, optimize workflows, generate actionable insights.",
+      "image": "/assets/WorkflowX.png",
+      "tags": ["Python", "PostgreSQL", "FastAPI", "NLP"],
+      "category": "AI/ML",
+      "githubUrl": "https://github.com/chhateauuu/AI-Powered-Business-Assistant",
+      "languages": ["Python", "PostgreSQL", "FastAPI", "NLP"]
     },
     {
-      "id": "2",
-      "title": "Project Two",
-      "description": "Web Development",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "id": 2,
+      "title": "Hybrid ML Recommendation System",
+      "description": "Built an ML-based anime recommender to provide recommendations for anime watchers with a 92% accuracy. Applied clustering, collaborative filtering to train the model, optimizing data pipelines with Pandas and Numpy.",
+      "image": "/assets/anime2.png",
+      "tags": ["Python", "Machine Learning", "Pandas", "NumPy"],
+      "category": "AI/ML",
+      "githubUrl": "https://github.com/chhateauuu/Hybrid-ML-Anime-Recommendation-System",
+      "languages": ["Python", "Machine Learning", "Pandas", "NumPy"]
     },
     {
-      "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "id": 3,
+      "title": "TypeScript MERN eCommerce Application",
+      "description": "Built a platform using MongoDB, Express, React, and Node.js for enhancing shopping for a Nepali home goods store. Developed REST APIs, used TypeScript for frontend/backend, implemented authentication, improved accessibility.",
+      "image": "/assets/mern.png",
+      "tags": ["TypeScript", "MongoDB", "Express", "React", "Node.js"],
+      "category": "Web Development",
+      "githubUrl": "https://github.com/chhateauuu/MERN-Ecommerce-Application",
+      "languages": ["TypeScript", "MongoDB", "Express", "React", "Node.js"]
     },
     {
-      "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "id": 4,
+      "title": "DetectAI",
+      "description": "Trained a TensorFlow model on Google Colab, reducing model size by 2x to deploy by converting it to TFLite. Crafted a Python Script using OpenCV and NumPy to achieve real-time object detection, processing 30 FPS.",
+      "image": "/assets/object_detection.png",
+      "tags": ["Python", "TensorFlow", "OpenCV", "NumPy"],
+      "category": "AI/ML",
+      "githubUrl": "https://github.com/chhateauuu/DetectAI-Real-Time-Object-Recognition",
+      "languages": ["Python", "TensorFlow", "OpenCV", "NumPy"]
     },
     {
-      "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "id": 5,
+      "title": "Aarya's ATM",
+      "description": "Created an ATM Simulator in Java using JFrame and Maven, handling up to 55 transactions running parallelly. Integrated MySQL with Java Database Connectivity, improving data management efficiency and privacy.",
+      "image": "/assets/atmpagepic.png",
+      "tags": ["Java", "MySQL", "JFrame", "Maven"],
+      "category": "Desktop Application",
+      "githubUrl": "https://github.com/chhateauuu/ATM-Simulator",
+      "languages": ["Java", "MySQL", "JFrame", "Maven"]
     },
     {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "id": 6,
+      "title": "DiceMaster",
+      "description": "Built an iOS app using Swift and UIKit, creating smooth transitions and optimizing logic for seamless interactions. Reduced UI load time by 32% compared to standard image handling methods, enhancing overall responsiveness.",
+      "image": "/assets/dice.png",
+      "tags": ["Swift", "UIKit", "iOS"],
+      "category": "Mobile Development",
+      "githubUrl": "https://github.com/chhateauuu/DiceMaster",
+      "languages": ["Swift", "UIKit", "iOS"]
     }
   ],
   "experiences": [

@@ -11,7 +11,7 @@ const Header = ({ handleExperienceScroll, handleProjectsScroll, handleAboutScrol
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume } = data;
+  const { name, showResume } = data;
 
   useEffect(() => {
     setMounted(true);
@@ -72,9 +72,6 @@ const Header = ({ handleExperienceScroll, handleProjectsScroll, handleAboutScrol
                   <Button onClick={handleExperienceScroll}>Experience</Button>
                   <Button onClick={handleProjectsScroll}>Projects</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
-                  {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
                   {showResume && (
                     <Button
                       onClick={() =>
@@ -96,9 +93,6 @@ const Header = ({ handleExperienceScroll, handleProjectsScroll, handleAboutScrol
                   <Button onClick={() => router.push("/")} classes="first:ml-1">
                     Home
                   </Button>
-                  {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
                   {showResume && (
                     <Button
                       onClick={() => router.push("/resume")}
@@ -135,9 +129,6 @@ const Header = ({ handleExperienceScroll, handleProjectsScroll, handleAboutScrol
             <Button onClick={handleExperienceScroll}>Experience</Button>
             <Button onClick={handleProjectsScroll}>Projects</Button>
             <Button onClick={handleAboutScroll}>About</Button>
-            {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
@@ -164,9 +155,6 @@ const Header = ({ handleExperienceScroll, handleProjectsScroll, handleAboutScrol
         ) : (
           <div className="flex">
             <Button onClick={() => router.push("/")}>Home</Button>
-            {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
