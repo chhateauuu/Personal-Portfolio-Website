@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
 const WorkCard = ({ img, name, description, onClick, languages, githubUrl }) => {
-  const { theme } = useTheme();
+  const { theme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Use resolvedTheme for more reliable theme detection
+  const currentTheme = mounted ? (resolvedTheme || theme) : 'dark';
 
   return (
     <div
@@ -11,8 +19,8 @@ const WorkCard = ({ img, name, description, onClick, languages, githubUrl }) => 
     >
       <div
         className={`relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-32 mob:h-40 ${
-          theme === "dark" 
-            ? "bg-slate-800 shadow-lg hover:shadow-xl" 
+          currentTheme === "dark"
+            ? "bg-slate-800 shadow-lg hover:shadow-xl"
             : "bg-white shadow-lg hover:shadow-xl"
         }`}
       >
@@ -21,7 +29,7 @@ const WorkCard = ({ img, name, description, onClick, languages, githubUrl }) => 
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
           src={img}
         ></img>
-        
+
         {/* Language Tags - Floating and not affected by theme */}
         {languages && languages.length > 0 && (
           <div className="absolute top-2 left-2 flex flex-wrap gap-1 max-w-[60%]">
@@ -62,15 +70,15 @@ const WorkCard = ({ img, name, description, onClick, languages, githubUrl }) => 
           </div>
         )}
       </div>
-      
+
       <div className="mt-4">
         <h1 className={`text-xl font-medium ${
-          theme === "dark" ? "text-white" : "text-gray-900"
+          currentTheme === "dark" ? "text-white" : "text-gray-900"
         }`}>
           {name ? name : "Project Name"}
         </h1>
         <p className={`text-sm opacity-70 mt-2 ${
-          theme === "dark" ? "text-gray-300" : "text-gray-600"
+          currentTheme === "dark" ? "text-gray-300" : "text-gray-600"
         }`}>
           {description ? description : "Description"}
         </p>

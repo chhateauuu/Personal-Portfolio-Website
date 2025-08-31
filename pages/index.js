@@ -58,7 +58,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={`relative ${data.showCursor && "cursor-none"}`}>
+    <div className={`relative min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-200 ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
@@ -67,7 +67,7 @@ export default function Home() {
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
 
-      <div className="container mx-auto mb-10">
+      <div className="container mx-auto mb-10 bg-white dark:bg-black">
         <Header
           handleExperienceScroll={handleExperienceScroll}
           handleProjectsScroll={handleProjectsScroll}
@@ -148,6 +148,20 @@ export default function Home() {
                 onClick={() => window.open(project.githubUrl)}
               />
             ))}
+          </div>
+          <div className="mt-8 text-center">
+            <p className="text-lg opacity-70">
+              View my{" "}
+              <a
+                href="https://github.com/chhateauuu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:text-blue-600 transition-colors duration-200 font-medium"
+              >
+                GitHub
+              </a>{" "}
+              for more
+            </p>
           </div>
         </div>
 

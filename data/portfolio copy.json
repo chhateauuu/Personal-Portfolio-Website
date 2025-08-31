@@ -1,29 +1,19 @@
 {
-  "name": "Chetan",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Chetan Verma - curious",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
-  "showBlog": true,
+  "name": "Aarya",
+  "headerTaglineOne": "Hey, I am Aarya",
+  "headerTaglineTwo": "I like designing intelligent solutions where algorithms meet empathy.",
+  "headerTaglineThree": "",
+  "headerTaglineFour": "",
+  "showCursor": true,
+  "showBlog": false,
   "darkMode": true,
+  "showResume": false,
   "socials": [
-    {
-      "id": "1",
-      "title": "Github",
-      "link": "https://github.com/chetanverma16"
-    },
-    {
-      "id": "2",
-      "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
-    },
-    {
-      "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
+    { "id": "1", "title": "Github", "link": "https://github.com/chhateauuu" },
+    { "id": "2", "title": "LinkedIn", "link": "https://www.linkedin.com/in/aaryabrat-chhatkuli/" },
+    { "id": "3", "title": "Twitter", "link": "https://twitter.com/aaryabrat" },
+    { "id": "4", "title": "Blog", "link": "https://blog.aaryac.com/" },
+    { "id": "5", "title": "Email", "link": "mailto:aaryabrat@wustl.edu" }
   ],
   "projects": [
     {
@@ -90,43 +80,43 @@
   "experiences": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance.",
+      "title": "AI & Computer Vision Intern",
+      "description": "Built an AI-powered MediaPipe eye-tracking system for pathologists' gaze analysis on 500+ digital pathology slides, improving model training efficiency by 33%. Conducted EDA on 9k+ gaze datapoints and integrated results into computer vision pipelines.",
       "company": {
-        "name": "Company Name",
-        "url": "https://company.com"
+        "name": "NELLC",
+        "url": "https://www.linkedin.com/in/aaryabrat-chhatkuli/details/experience/"
       },
-      "dateRange": "Jan 2023 - Dec 2023"
+      "dateRange": "May 2025 - Aug 2025"
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors.",
+      "title": "Applied ML & SWE Intern",
+      "description": "Developed and deployed a cross-platform iOS/Android app with LLM-powered trivia engine for South Asian Alzheimer's patients. Analyzed 2,200+ patient interactions and integrated gamified metrics, improving cognitive outcome evaluations by 22%.",
       "company": {
-        "name": "Company Name",
-        "url": "https://company.com"
+        "name": "DePauw University - Neuroscience Department",
+        "url": "https://www.depauw.edu/academics/majors-and-minors/about-neuroscience/"
       },
-      "dateRange": "Jun 2023 - Aug 2023"
+      "dateRange": "Aug 2024 - May 2025"
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel.",
+      "title": "Machine Learning Intern",
+      "description": "Performed EDA on 30k+ daily production records and engineered ML features that improved defect detection accuracy by >98%. Built Python/Django data pipeline on AWS with React dashboard, reducing waste by 27% and boosting efficiency by 18%.",
       "company": {
-        "name": "Company Name",
-        "url": "https://company.com"
+        "name": "BNutty, LLC",
+        "url": "https://bnutty.com/"
       },
-      "dateRange": "May 2022 - Aug 2022"
+      "dateRange": "Jul 2024 - Sep 2024"
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life.",
+      "title": "Software Developer (Data-Driven Product Optimization)",
+      "description": "Boosted user engagement by 16% and cut page load time by 23% by building full-stack features and implementing Three.js visualizations. Analyzed client usage data to drive feature prioritization, directly acquiring 12 new clients in Indiana.",
       "company": {
-        "name": "Company Name",
-        "url": "https://company.com"
+        "name": "1sys",
+        "url": "https://www.linkedin.com/company/1system/posts/?feedView=all"
       },
-      "dateRange": "Sep 2021 - May 2022"
+      "dateRange": "Jan 2024 - Jul 2024"
     }
   ],
   "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
