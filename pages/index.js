@@ -61,6 +61,7 @@ export default function Home() {
     <div className={`relative min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-200 ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <title>{data.name}</title>
       </Head>
 
